@@ -60,8 +60,16 @@
             height: auto;
             margin: 10px;
         }
-    </style>
 
+        .square {
+            width: 200px; /* Width of the square */
+            height: 200px; /* Height of the square */
+            border: 2px solid white; /* Outline color */
+            border-radius: 50px;
+            margin: 10px;
+            box-sizing: border-box; /* Include the border in width and height calculations */
+        }
+    </style>
 </head>
 <body>
     <div class="navigation-bar">
@@ -78,6 +86,7 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript">
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
         </div>
+        <div class="square"></div> <!-- Added square -->
     </div>
 </body>
 </html>
